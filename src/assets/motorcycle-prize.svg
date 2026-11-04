@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="450" y1="0" x2="450" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172D55"/>
+      <stop offset=".58" stop-color="#587EA0"/>
+      <stop offset="1" stop-color="#E2AD70"/>
+    </linearGradient>
+    <linearGradient id="road" x1="450" y1="321" x2="450" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67747D"/>
+      <stop offset="1" stop-color="#28313D"/>
+    </linearGradient>
+    <linearGradient id="bike" x1="376" y1="289" x2="584" y2="398" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#35E7F5"/>
+      <stop offset=".46" stop-color="#138CAC"/>
+      <stop offset="1" stop-color="#183955"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="654" y1="137" x2="654" y2="317" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE7A6"/>
+      <stop offset="1" stop-color="#FFAF70" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="490" y="106" width="328" height="328" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h900v540H0z"/>
+  <circle cx="654" cy="270" r="118" fill="url(#sun)" filter="url(#glow)"/>
+  <circle cx="654" cy="242" r="71" fill="#FFD692" fill-opacity=".72"/>
+  <path fill="#243F61" d="m0 291 104-75 63 36 105-101 101 111 75-44 109 88 88-64 111 80 67-56 77 40v99H0z"/>
+  <path fill="#365777" d="m0 329 102-57 71 27 109-76 91 73 107-32 84 54 100-51 93 47 83-23 60 32v89H0z"/>
+  <path fill="#738A91" d="M0 346c148-23 231-20 354 2s228 18 546-3v72H0z"/>
+  <path fill="#E8C18B" fill-opacity=".8" d="M0 362c171-13 268 6 385 16 132 12 261-12 515-18v19c-210 15-364 45-545 18C234 378 144 370 0 381z"/>
+  <path fill="#D9E3D8" fill-opacity=".72" d="M0 387c168-11 275 9 398 17 166 10 324-21 502-25v9c-210 18-337 48-533 26C230 396 125 391 0 402z"/>
+  <path fill="url(#road)" d="M0 409c192-22 323-3 445 9 149 14 287-18 455-31v153H0z"/>
+  <path stroke="#FFD879" stroke-dasharray="30 25" stroke-linecap="round" stroke-width="8" d="m433 433-23 107m167-116 44 116"/>
+  <path stroke="#D8E8E7" stroke-opacity=".7" stroke-width="4" d="m0 428 206-22m694-43-182 24"/>
+  <g stroke="#101B29" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="356" cy="393" r="40" fill="#111923" stroke-width="11"/>
+    <circle cx="356" cy="393" r="23" stroke="#90A4AD" stroke-width="5"/>
+    <circle cx="574" cy="393" r="40" fill="#111923" stroke-width="11"/>
+    <circle cx="574" cy="393" r="23" stroke="#90A4AD" stroke-width="5"/>
+    <path d="m356 393 57-68 57 68-63 1-51-53m114 52 54-66 50 66H460l-47-68h96l-39-29h63" stroke-width="12"/>
+    <path fill="#101B29" stroke-width="8" d="M421 324c12-17 33-27 56-23l31 11-27 35-56-2-12-10z"/>
+    <path fill="url(#bike)" stroke-width="7" d="m457 333 31-37c7-8 17-11 28-8l45 14-22 38-42 14-48-4z"/>
+    <path fill="#121C29" stroke-width="6" d="m474 304-14-35 49-6 28 34-28 15-19-15z"/>
+    <path stroke="#D6F8F5" stroke-width="5" d="m544 308 26-21 23 5m-129 43-12 25m116-61 16 31"/>
+    <path fill="#E7F7F1" stroke-width="4" d="m550 315 19 6-7 12-24-3z"/>
+    <path fill="#18202A" stroke-width="6" d="m481 293-20-54 25-8 30 55-17 12z"/>
+    <path fill="#F2B69B" stroke-width="5" d="m462 250-19-18 13-9 24 10 16 24-19 9z"/>
+    <path fill="#172334" stroke-width="7" d="m464 244-25-63c-3-7 1-15 9-17 8-2 15 2 17 10l24 61z"/>
+    <path fill="#0B1422" stroke-width="5" d="m430 163 5-24c3-12 15-20 28-18l20 3 12 27-16 20-30 6z"/>
+    <path stroke="#55E5F2" stroke-width="5" d="m476 168 17 23m-63 91-25 16"/>
+    <path fill="#E8C789" stroke-width="4" d="m392 314 21-7 16 11-13 9-22-3z"/>
+  </g>
+  <path fill="#E9F9F5" fill-opacity=".66" d="m367 386 10-28 3 32-11 5zm203-28 12 29-8 7-10-28z"/>
+  <path fill="#9FEFFA" fill-opacity=".74" d="m478 304 42-9-24 19-28 18 13-28z"/>
+  <path fill="#10203A" fill-opacity=".2" d="M0 0h900v540H0z"/>
+</svg>
